@@ -52,21 +52,25 @@ Classificar espécies de flores do dataset Iris utilizando o algoritmo K-Nearest
 
 ### 🎯 Objetivo
 
-Explorar o dataset Titanic para identificar fatores relacionados à sobrevivência dos passageiros.
+Explorar o dataset Titanic para identificar fatores relacionados à sobrevivência dos passageiros e preparar os dados para treinamento de modelos de Machine Learning.
 
 ### 📊 Etapas realizadas
 
-- Carregamento do dataset
-- Análise da estrutura dos dados
-- Identificação de valores ausentes
-- Análise da taxa de sobrevivência
-- Comparação da sobrevivência por sexo
-- Comparação da sobrevivência por classe
-- Análise da distribuição das idades
+* Carregamento do dataset
+* Análise da estrutura dos dados
+* Identificação de valores ausentes
+* Análise da taxa de sobrevivência
+* Comparação da sobrevivência por sexo
+* Comparação da sobrevivência por classe
+* Análise da distribuição das idades
+* Seleção dos atributos relevantes
+* Tratamento de valores ausentes
+* Conversão de variáveis categóricas em numéricas
+* Preparação dos dados para Machine Learning
 
 ### 📈 Principais descobertas
 
-- Aproximadamente **38%** dos passageiros sobreviveram.
-- Mulheres apresentaram uma taxa de sobrevivência significativamente maior que homens.
-- Passageiros da **1ª classe** tiveram maior probabilidade de sobreviver.
-- Crianças e adultos jovens apresentaram maior concentração entre os sobreviventes.
+* Aproximadamente **38%** dos passageiros sobreviveram.
+* Mulheres apresentaram uma taxa de sobrevivência significativamente maior do que homens.
+* Passageiros da **1ª classe** tiveram maior probabilidade de sobreviver.
+* Crianças e adultos jovens apresentaram maior concentração entre os sobreviventes.
