@@ -1,10 +1,6 @@
-# 🌸 Classificação de Flores Iris
+# 🤖 Mini Projetos de Machine Learning
 
-Projeto de Machine Learning para classificação de espécies de flores do dataset Iris utilizando Python e Scikit-Learn.
-
-## 🎯 Objetivo
-
-Prever a espécie da flor (Setosa, Versicolor ou Virginica) com base em características das pétalas e sépalas.
+Repositório com mini projetos desenvolvidos para praticar conceitos de Machine Learning, Ciência de Dados e Análise Exploratória utilizando Python.
 
 ## 🛠️ Tecnologias
 
@@ -12,28 +8,35 @@ Prever a espécie da flor (Setosa, Versicolor ou Virginica) com base em caracter
 - Pandas
 - Matplotlib
 - Scikit-Learn
+- Seaborn
 - Jupyter Notebook
 
-## 📊 Etapas Realizadas
+---
 
-- Análise exploratória dos dados 
+# 🌸 Projeto 1 — Classificação de Flores Iris
+
+### 🎯 Objetivo
+
+Classificar espécies de flores do dataset Iris utilizando o algoritmo K-Nearest Neighbors (KNN).
+
+### 📊 Etapas realizadas
+
+- Análise exploratória dos dados
 - Visualização gráfica das espécies
 - Separação dos dados em treino e teste
-- Treinamento utilizando o algoritmo K-Nearest Neighbors 
-- Avaliação do modelo com métricas de classificação
+- Treinamento do modelo KNN
+- Avaliação com métricas de classificação
 - Geração da matriz de confusão
-- Comparação de diferentes valores de K
+- Comparação entre diferentes valores de K
 
-## 📈 Resultados
+### 📈 Resultados
 
 - Acurácia: **100%**
 - Precision: **100%**
 - Recall: **100%**
 - F1-Score: **100%**
-- Matriz de confusão sem erros de classificação
-- Avaliação dos valores de K: 1, 3, 5, 7 e 9
 
-### Comparação dos Valores de K
+#### Comparação dos valores de K
 
 | K | Acurácia |
 |---|----------|
@@ -42,3 +45,28 @@ Prever a espécie da flor (Setosa, Versicolor ou Virginica) com base em caracter
 | 5 | 100% |
 | 7 | 96,67% |
 | 9 | 100% |
+
+---
+
+# 🚢 Projeto 2 — Análise Exploratória do Titanic
+
+### 🎯 Objetivo
+
+Explorar o dataset Titanic para identificar fatores relacionados à sobrevivência dos passageiros.
+
+### 📊 Etapas realizadas
+
+- Carregamento do dataset
+- Análise da estrutura dos dados
+- Identificação de valores ausentes
+- Análise da taxa de sobrevivência
+- Comparação da sobrevivência por sexo
+- Comparação da sobrevivência por classe
+- Análise da distribuição das idades
+
+### 📈 Principais descobertas
+
+- Aproximadamente **38%** dos passageiros sobreviveram.
+- Mulheres apresentaram uma taxa de sobrevivência significativamente maior que homens.
+- Passageiros da **1ª classe** tiveram maior probabilidade de sobreviver.
+- Crianças e adultos jovens apresentaram maior concentração entre os sobreviventes.
